@@ -48,5 +48,8 @@ const table = new Table({
     ]
   });
 
+
   const app = document.getElementById("app");
   table.render(app);
+
+export default Table;
